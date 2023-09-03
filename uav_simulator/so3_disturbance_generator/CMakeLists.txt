@@ -8,6 +8,7 @@
 #  RelWithDebInfo : w/ debug symbols, w/ optimization
 #  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
 #set(ROS_BUILD_TYPE RelWithDebInfo)
+set(CMAKE_CXX_STANDARD 14)
 
 #rosbuild_init()
 
